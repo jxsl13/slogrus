@@ -1,6 +1,6 @@
 # slogrus
 
-`slogrus` is a logger wrapper hat allows your `sirupsen/logrus.Logger` to be passed to functions or methods as `slog.Logger`.
+`slogrus` is a logger wrapper that allows your `sirupsen/logrus.Logger` to be passed to functions or methods as `slog.Logger`.
 The `slogrus.NewHandler` implements the `slog.Handler` interface that can be passed to the constructor function `slog.New(h slog.Handler) *Logger
 `.
 
